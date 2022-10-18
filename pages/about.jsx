@@ -38,7 +38,7 @@ export default function About() {
             Skill
           </h2>
           <div className="flex">
-            <div>a</div>
+            <div>html</div>
             <div>a</div>
             <div>a</div>
           </div>
