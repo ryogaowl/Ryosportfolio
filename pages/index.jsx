@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { client } from "../libs/client";
-import { Header } from "../components/Header";
+import { Header } from "../components/header";
 //SSG
 export const getStaticProps = async () => {
   const data = await client.get({ endpoint: "blog" });

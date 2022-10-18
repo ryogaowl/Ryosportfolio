@@ -1,6 +1,6 @@
 //SSG
 
-import { Header } from "../../components/Header";
+import { Header } from "../../components/header";
 import { client } from "../../libs/client";
 import styles from "../../styles/Home.module.sass";
 
