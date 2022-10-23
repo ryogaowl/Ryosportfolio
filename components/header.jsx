@@ -6,7 +6,7 @@ export function Header() {
       <header className=" w-full pt-5 block pb-5 shadow-xl bg-blue-900 box-border opacity-95">
         <div className="flex align-center justify-between w-4/5 mx-auto my-0 px-5 items-center ">
           <div className="text-white">
-            <h1 className=" font-bold text-3xl translate">Ryo Portfolio</h1>
+            <h1 className=" font-bold text-3xl translate">Ryo's Portfolio</h1>
           </div>
           <ul className="flex pt-1 text-white text-xl ">
             <li className="mr-3 hover:opacity-60 ">
@@ -24,9 +24,14 @@ export function Header() {
                 <a>BLOG</a>
               </Link>
             </li>
-            <li className="hover:opacity-60">
+            <li className="mr-3 hover:opacity-60">
               <Link href="/works">
                 <a>WORKS</a>
+              </Link>
+            </li>
+            <li className="hover:opacity-60">
+              <Link href="/contact">
+                <a>CONTACT</a>
               </Link>
             </li>
           </ul>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { Footer } from "../../components/footer";
 import { Header } from "../../components/header";
 import { client } from "../../libs/client";
 
@@ -25,7 +26,7 @@ export default function blog({ blog }) {
       </div>
       <div className="w-4/5 mx-auto my-0 px-5">
         <h1 className="sm:text-3xl md:text-4xl text-3xl font-bold mt-14 border-b-2 pb-1">
-          BLOG
+          BLOG一覧
         </h1>
         <ul className="mt-6">
           {blog.map((blog) => (
@@ -39,6 +40,8 @@ export default function blog({ blog }) {
           ))}
         </ul>
       </div>
+
+      <Footer />
     </>
   );
 }

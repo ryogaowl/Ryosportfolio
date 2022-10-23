@@ -15,6 +15,7 @@ module.exports = {
         mv: "url('/images/mv.jpg')",
         blog: "url('/images/blog.jpg')",
         about: "url('/images/about.jpg')",
+        mail: "url('/images/mail.jpg')",
       },
       animation: {
         "text-focus-in":
@@ -34,6 +35,7 @@ module.exports = {
       },
       colors: {
         dar: "#222831", //darkModeで使用したい色を拡張定義
+        main: "#232323",
       },
     },
   },
