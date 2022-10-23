@@ -28,14 +28,13 @@ export default function BlogId({ blog }) {
   return (
     <>
       <Header />
-      <main className={styles.main}>
-        <h1 className={styles.title}>{blog.title}</h1>
-        <p className={styles.publishedAt}>{blog.publishedAt}</p>
+      <main>
+        <h1>{blog.title}</h1>
+        <p>{blog.publishedAt}</p>
         <div
           dangerouslySetInnerHTML={{
             __html: `${blog.body}`,
           }}
-          className={styles.post}
         ></div>
       </main>
     </>
