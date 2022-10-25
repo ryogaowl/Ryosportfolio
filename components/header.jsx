@@ -11,7 +11,7 @@ export function Header() {
       <div
         className={
           openMenu
-            ? `md:contents absolute top-0 h-screen  bg-blue-900 md:bg-inherit w-screen`
+            ? `md:contents fixed top-0 h-screen  bg-blue-900 md:bg-inherit w-screen`
             : undefined
         }
       >
