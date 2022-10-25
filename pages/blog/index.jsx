@@ -19,12 +19,12 @@ export default function blog({ blog }) {
     <>
       <Header />
 
-      <div className="bg-blog bg-cover h-96 text-white">
+      <div className="bg-blog bg-cover md:h-96 h-56 text-white">
         <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
           BLOG
         </h1>
       </div>
-      <div className="w-4/5 mx-auto my-0 px-5">
+      <div className="md:w-4/5 mx-auto my-0 px-5">
         <h1 className="sm:text-3xl md:text-4xl text-3xl font-bold mt-14 border-b-2 pb-1">
           BLOG一覧
         </h1>
@@ -40,8 +40,9 @@ export default function blog({ blog }) {
           ))}
         </ul>
       </div>
-
-      <Footer />
+      <div className="md:contents absolute  bottom-0 w-full">
+        <Footer />
+      </div>
     </>
   );
 }

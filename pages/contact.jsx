@@ -5,12 +5,12 @@ export default function Contact() {
   return (
     <div className="">
       <Header />
-      <div className="bg-mail bg-cover h-96 text-white">
+      <div className="bg-mail bg-cover md:h-96 h-56 text-white">
         <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
           CONTACT
         </h1>
       </div>
-      <div className="md:w-2/3 w-4/5 mx-auto my-0 px-5">
+      <div className=" md:w-4/5 mx-auto my-0 px-5">
         <p className="md:text-sm text-xs mt-9 ">
           興味を持っていただきありがとうございます。お仕事やその他のご相談について下記のフォームよりお問い合わせください。
         </p>

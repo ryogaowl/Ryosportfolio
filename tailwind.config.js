@@ -37,6 +37,9 @@ module.exports = {
         dar: "#222831", //darkModeで使用したい色を拡張定義
         main: "#232323",
       },
+      rotate: {
+        33: "-45deg",
+      },
     },
   },
   plugins: [],

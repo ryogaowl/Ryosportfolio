@@ -12,7 +12,7 @@ export default function About() {
           ABOUT
         </h1>
       </div>
-      <div className="w-4/5 mx-auto my-0 px-5 text-main">
+      <div className="md:w-4/5 mx-auto my-0 px-5 text-main">
         <div className="">
           <div className="flex justify-center items-center mt-14">
             <img
