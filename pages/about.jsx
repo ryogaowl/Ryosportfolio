@@ -52,7 +52,7 @@ export default function About() {
               </li>
               <li className="md:before:content-['/'] before:content-['ー'] pr-1">
                 {" "}
-                ブログ
+                ブログ(Wordpress,MicroCMS)
               </li>
               <li className="md:before:content-['/'] md:mt-0 mt-2"> etc..</li>
             </ul>
