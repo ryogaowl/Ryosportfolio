@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // 'カラー名': 'カラーコード'
         tw: "#fffff",
       },
       backgroundImage: {
@@ -16,10 +15,12 @@ module.exports = {
         blog: "url('/images/blog.jpg')",
         about: "url('/images/about.jpg')",
         mail: "url('/images/mail.jpg')",
+        works: "url('/images/works.jpg')",
       },
       animation: {
         "text-focus-in":
           "text-focus-in 1.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)   both",
+        "pulsate-fwd": "pulsate-fwd 0.8s ease  infinite both",
       },
       keyframes: {
         "text-focus-in": {
@@ -32,9 +33,18 @@ module.exports = {
             opacity: "1",
           },
         },
+        "pulsate-fwd": {
+          "0%,to": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(1.1)",
+          },
+        },
       },
+
       colors: {
-        dar: "#222831", //darkModeで使用したい色を拡張定義
+        dar: "#222831",
         main: "#232323",
       },
       rotate: {

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="">
       <Header />
-      <div className="bg-mail bg-cover md:h-96 h-56 text-white">
+      <div className="bg-mail md:bg-auto bg-cover md:h-96 h-56 text-white">
         <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
           CONTACT
         </h1>
