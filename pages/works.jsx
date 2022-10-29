@@ -25,19 +25,15 @@ export default function Contact() {
               </a>
             </div>
             <div className="md:w-3/5 md:ml-11 md:pl-0 pl-1">
-              <h2 className="lg:pt-3 pt-2 lg:text-2xl text-lg font-bold">
+              <h2 className="lg:pt-1 pt-2 lg:text-2xl text-lg font-bold">
                 Ryo Portfolio(当サイト)
               </h2>
               <h3 className="mt-1 lg:text-lg transition duration-150 ease-out">
-                使用言語
+                使用言語: React(Next.js)/ TailwindCSS/MicroCMS
               </h3>
-              <ul className="flex lg:text-base text-sm">
-                <li className="pr-1">React(Next.js)</li>
-                <li className="before:content-['/'] pr-1"> TailwindCSS</li>
-                <li className="before:content-['/']"> MicroCMS</li>
-              </ul>
-              <h3 className="mt-1 lg:text-lg text-base">制作期間</h3>
-              <p className="lg:text-base text-sm ">2〜3日</p>
+
+              <h3 className="mt-1 lg:text-lg text-base">制作期間: 2〜3日</h3>
+
               <h3 className="mt-1 lg:text-lg text-base">説明</h3>
               <p className="lg:text-base text-sm ">
                 MicroCMSとNext.jsで作ったポートフォリオサイトです。
@@ -63,21 +59,26 @@ export default function Contact() {
               </a>
             </div>
             <div className="md:w-3/5 md:ml-11 md:pl-0 pl-1">
-              <h2 className="lg:pt-3 pt-2 lg:text-2xl text-lg font-bold">
-                旅館ホームページ(サンプル)
+              <h2 className="lg:pt-1 pt-2 lg:text-2xl text-lg font-bold">
+                旅館ホームページ(仮想サイト)
               </h2>
-              <h3 className="mt-1 lg:text-lg">使用言語</h3>
-              <ul className="flex lg:text-base text-sm">
-                <li className="pr-1">HTML</li>
-                <li className="before:content-['/'] pr-1">CSS(Sass)</li>
-                <li className="before:content-['/']"> jquery</li>
-              </ul>
-              <h3 className="mt-1 lg:text-lg text-base">制作期間</h3>
-              <p className="lg:text-base text-sm ">1週間</p>
-              <h3 className="mt-1 lg:text-lg text-base">説明</h3>
-              <p className="lg:text-base text-sm ">
+              <h3 className="mt-1 lg:text-lg">
+                使用言語: HTML/ CSS(Sass)/jquery
+              </h3>
+
+              <h3 className="mt-1 md:text-lg text-base">制作期間: 1週間</h3>
+
+              <h3 className="mt-1 md:text-lg text-base">説明</h3>
+              <p className="text-sm ">
                 XDデザインカンプから作成しました。
+                <br />
+                indexを防ぐためBasic認証をかけております。
+                <br />
+                下記ID・パスワードを使用してください。
+                <br />
+                ユーザID : user / パスワード : pass-424
               </p>
+
               <a
                 className="text-blue-600 mt-2 text-xs md:mt-2 block"
                 href="https://ryoportfolio-eng.conohawing.com/ishii-kadan/"
