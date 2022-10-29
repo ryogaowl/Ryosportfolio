@@ -3,7 +3,7 @@ import { Header } from "../components/header";
 
 export default function Contact() {
   return (
-    <div className="">
+    <div className="bg-base">
       <Header />
       <div className="bg-mail md:bg-auto bg-cover md:h-96 h-56 text-white">
         <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">

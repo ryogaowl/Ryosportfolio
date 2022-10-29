@@ -1,0 +1,3 @@
+.button:hover {
+  @apply transform duration-1000 scale-150;
+}

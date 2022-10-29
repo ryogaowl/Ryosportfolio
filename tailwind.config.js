@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         tw: "#fffff",
       },
+      backgroundColor: {
+        card: "#e7e7e7",
+        base: "#F4F5F7",
+      },
       backgroundImage: {
         mv: "url('/images/mv.jpg')",
         blog: "url('/images/blog.jpg')",

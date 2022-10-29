@@ -27,7 +27,7 @@ export const getStaticPaths = async () => {
 
 export default function BlogId({ blog }) {
   return (
-    <div className="absolute">
+    <div className="absolute bg-base">
       <Header />
       <main className={styles.main}>
         <h1 className={styles.title}>{blog.title}</h1>

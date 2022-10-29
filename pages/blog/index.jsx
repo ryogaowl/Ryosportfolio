@@ -19,7 +19,7 @@ export default function blog({ blog }) {
     <>
       <Header />
 
-      <div className="bg-blog bg-cover md:h-96 h-56 text-white">
+      <div className="bg-blog bg-cover md:h-96 h-56 text-white bg-base">
         <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
           BLOG
         </h1>

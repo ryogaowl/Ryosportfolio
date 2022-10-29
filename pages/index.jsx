@@ -13,13 +13,22 @@ export const getStaticProps = async () => {
 
 export default function Home() {
   return (
-    <div className=" relative">
+    <div className="bg-base relative">
       <Header />
       <div className="h-full ">
         <div className="bg-mv h-screen w-full bg-cover text-white absolute top-0">
-          <h1 className="h-full flex justify-center items-center md:text-7xl text-4xl animate-text-focus-in">
-            Welcome to my portfolio
-          </h1>
+          <div className="flex justify-center items-center h-full animate-text-focus-in">
+            <div>
+              <h1 className="text-center md:text-7xl text-4xl font-bold">
+                Welcome to my portfolio
+              </h1>
+              <p className="text-center text-sm md:text-base mt-5">
+                こちらのサイトにブログや作品を載せています。
+                <br />
+                お仕事はContactページよりお問い合わせください。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
