@@ -24,7 +24,7 @@ export function Footer() {
           <img src="/images/insta.png" alt="" />
         </a>
       </div>
-      <div className="mt-3 bg-blue-900 w-full h-10 flex items-center bottom-0">
+      <div className="mt-3 bg-black w-full h-10 flex items-center bottom-0">
         <footer className="flex items-center justify-center text-sm text-white w-4/5 mx-auto my-0 px-5">
           <p>© 2022 Ryo Portfolio</p>
         </footer>

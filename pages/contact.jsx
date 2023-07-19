@@ -5,10 +5,17 @@ export default function Contact() {
   return (
     <div className="bg-base">
       <Header />
-      <div className="bg-mail md:bg-auto bg-cover md:h-96 h-56 text-white">
-        <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
-          CONTACT
-        </h1>
+      <div className="relative bg-contact bg-cover md:h-44 h-48 text-white">
+        <div className="md:w-4/5 mx-auto px-5 md:pt-16 pt-20">
+          <div className="w-fit">
+            <h1 className="mx-auto bottom-16   md:text-5xl text-4xl">
+              CONTACT
+            </h1>
+            <p className="pt-1 text-sm text-center md:text-base">
+              お問い合わせ
+            </p>
+          </div>
+        </div>
       </div>
       <div className=" md:w-4/5 mx-auto my-0 px-5">
         <p className="md:text-sm text-xs mt-9 ">
@@ -59,7 +66,7 @@ export default function Contact() {
           <div className="mt-16 text-center ">
             <button
               type="submit"
-              className="w-48 h-12 bg-blue-900 text-white hover:opacity-60"
+              className="w-48 h-12 bg-black text-white hover:opacity-60"
             >
               送信する
             </button>

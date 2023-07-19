@@ -12,14 +12,15 @@ module.exports = {
       },
       backgroundColor: {
         card: "#e7e7e7",
-        base: "#F4F5F7",
+        base: "#FFFFFF",
       },
       backgroundImage: {
         mv: "url('/images/mv.jpg')",
         blog: "url('/images/blog.jpg')",
         about: "url('/images/about.jpg')",
-        mail: "url('/images/mail.jpg')",
+        contact: "url('/images/mail.jpg')",
         works: "url('/images/works.jpg')",
+        price: "url('/images/price.jpg')",
       },
       animation: {
         "text-focus-in":
@@ -46,7 +47,9 @@ module.exports = {
           },
         },
       },
-
+      width: {
+        works: "45%",
+      },
       colors: {
         dar: "#222831",
         main: "#232323",

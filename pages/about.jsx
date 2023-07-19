@@ -1,24 +1,34 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
+import profileImg from "../public/images/profile.jpg";
 
 export default function About() {
   return (
     <>
       <Header />
-      <div className="bg-about bg-cover md:h-96 h-56 text-white">
-        <h1 className="h-full flex justify-center items-center md:text-5xl text-4xl">
-          ABOUT
-        </h1>
+      <div className="relative bg-about bg-cover md:h-44 h-48 text-white">
+        <div className="md:w-4/5 mx-auto px-5 md:pt-16 pt-20">
+          <div className="w-fit">
+            <h1 className="mx-auto bottom-16   md:text-5xl text-4xl">ABOUT</h1>
+            <p className="pt-1 text-sm text-center md:text-base">
+              私達について
+            </p>
+          </div>
+        </div>
       </div>
+
       <div className="md:w-4/5 mx-auto my-0 px-5 text-main">
         <div className="">
-          <div className="flex justify-center items-center mt-14">
-            <img
+          <div className="flex flex-col justify-center items-center mt-14">
+            <Image
               src="/images/profile.jpg"
               alt=""
               className="rounded-full block h-40"
+              width={150}
+              height={150}
             />
           </div>
           <div className="text-center w-60 my-0 mx-auto px-2 mb-32">
@@ -31,7 +41,7 @@ export default function About() {
           </div>
         </div>
         <div>
-          <h2 className="sm:text-2xl md:text-2xl text-xl mt-14 border-l-4 mb-1 pl-1  border-blue-900">
+          <h2 className="sm:text-2xl md:text-2xl  text-xl mt-14 border-l-4 mb-1 pl-1 border-b  border-b-gray-600 font-bold  border-black">
             お受けできる仕事
           </h2>
 
@@ -71,7 +81,7 @@ export default function About() {
           </div>
         </div>
         <div className="">
-          <h2 className="sm:text-2xl md:text-2xl text-xl mt-14 border-l-4 mb-1 pl-1  border-blue-900">
+          <h2 className="sm:text-2xl md:text-2xl text-xl mt-14 border-l-4 mb-1 pl-1 border-b  border-b-gray-600 font-bold  border-black">
             開発スキル
           </h2>
           <ul className=" mt-7">
