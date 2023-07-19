@@ -18,7 +18,7 @@ export default function works({ works }) {
   return (
     <div className="bg-base">
       <Header />
-      <div className="relative bg-workss bg-cover md:h-44 h-48 text-white">
+      <div className="relative bg-works bg-cover md:h-44 h-48 text-white">
         <div className="md:w-4/5 mx-auto px-5 md:pt-16 pt-16">
           <div className="w-fit">
             <h1 className="mx-auto bottom-16   md:text-5xl text-4xl">WORKS</h1>
