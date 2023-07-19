@@ -19,7 +19,6 @@ export default function Home() {
       <div className="relative">
         <video
           src="mov/AdobeStock_131248296.mp4"
-          type="video/mp4"
           className="hidden md:block top-0 left-0 right-0 bottom-0 fixed object-cover z-0 h-screen w-screen"
           autoplay
           loop
@@ -28,7 +27,6 @@ export default function Home() {
         ></video>
         <video
           src="mov/AdobeStock_521078998.mp4"
-          type="video/mp4"
           className="block md:hidden min-h-screen min-w-screen top-0 left-0 right-0 bottom-0 fixed object-cover z-0"
           autoplay
           loop
