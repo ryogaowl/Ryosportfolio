@@ -18,20 +18,20 @@ export default function Home() {
 
       <div className="relative">
         <video
-          src="mov/AdobeStock_131248296.mp4"
+          src="public/mov/AdobeStock_131248296.mp4"
           className="hidden md:block top-0 left-0 right-0 bottom-0 fixed object-cover z-0 h-screen w-screen"
-          autoplay
-          loop
+          autoPlay
           muted
-          playsinline
+          playsInline
+          loop
         ></video>
         <video
-          src="mov/AdobeStock_521078998.mp4"
+          src="mov/AdobeStock_521078998 (1) (1).mp4"
           className="block md:hidden min-h-screen min-w-screen top-0 left-0 right-0 bottom-0 fixed object-cover z-0"
-          autoplay
-          loop
+          autoPlay
           muted
-          playsinline
+          playsInline
+          loop
         ></video>
 
         <div className="text-white fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-text-focus-in md:mt-0 mt-10 z-10">
