@@ -22,6 +22,7 @@ export default function Home() {
           className="hidden md:block top-0 left-0 right-0 bottom-0 fixed object-cover z-0 h-screen w-screen"
           autoPlay
           muted
+          playsinline
           loop
         ></video>
         <video
@@ -29,6 +30,7 @@ export default function Home() {
           className="block md:hidden min-h-screen min-w-screen top-0 left-0 right-0 bottom-0 fixed object-cover z-0"
           autoPlay
           muted
+          playsinline
           loop
         ></video>
 
