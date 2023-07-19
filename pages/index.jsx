@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="bg-base relative overflow-hidden">
       <Header />
-      {/* 動画を配置、上にテキスト */}
+
       <div className="relative">
         <video
           src="mov/AdobeStock_131248296.mp4"
