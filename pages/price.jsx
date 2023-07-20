@@ -83,8 +83,8 @@ export default function Price() {
       question: "トップページのおよその縦幅を教えてください。",
       answers: [
         { id: 1, label: "~4000px", price: 15000 },
-        { id: 2, label: "4001~8000", price: 20000 },
-        { id: 3, label: "8001~", price: 25000 },
+        { id: 2, label: "4001~8000px", price: 20000 },
+        { id: 3, label: "8001px~", price: 25000 },
       ],
     },
     {
