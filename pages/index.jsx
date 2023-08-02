@@ -42,7 +42,7 @@ export default function Home() {
               Welcome to my portfolio
             </h1>
             <p className="text-center text-sm md:text-base mt-5">
-              こちらのサイトにブログや作品を載せています。
+              こちらのサイトに制作物を載せています。
               <br />
               お仕事はContactページよりお問い合わせください。
             </p>
