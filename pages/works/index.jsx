@@ -49,7 +49,7 @@ export default function works({ works }) {
                   </Link>
                   <a
                     className="text-blue-600 mt-2 pb-3 text-xs md:mt-2 block"
-                    href="https://my-portfolio-mu-pied.vercel.app/"
+                    href={`${works.url}`}
                   >
                     サイトへ移動
                   </a>
