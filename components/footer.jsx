@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <>
-      <div className="mt-36 flex justify-center">
+      <div className="md:mt-24 mt-14 flex justify-center">
         <a
           href="https://github.com/ryogaowl/Ryosportfolio.git"
           target="blank"
@@ -10,18 +10,11 @@ export function Footer() {
           <img src="/images/github.png" alt="" />
         </a>
         <a
-          href="https://twitter.com/ryo_____eng"
+          href="https://twitter.com/owl__goat"
           target="blank"
           className="block w-10 h-10 mr-2"
         >
           <img src="/images/twitter.png" alt="" />
-        </a>
-        <a
-          href="https://www.instagram.com/roomsadbeats999/"
-          target="blank"
-          className="block w-10 h-10 hover:transform "
-        >
-          <img src="/images/insta.png" alt="" />
         </a>
       </div>
       <div className="mt-3 bg-black w-full h-10 flex items-center bottom-0">

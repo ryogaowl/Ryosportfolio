@@ -26,8 +26,8 @@ export default function works({ works }) {
           </div>
         </div>
       </div>
-      <div className=" md:w-4/5 mx-auto my-0 px-10">
-        <h1 className="text-2xl w-full md:text-3xl  mt-5 border-l-4 border-b  border-b-gray-600 border-black pl-2 ">
+      <div className=" md:w-4/5 mx-auto my-0 px-5">
+        <h1 className="text-2xl w-full md:text-3xl  mt-14 border-l-4 border-b  border-b-gray-600 border-black pl-2 ">
           制作物のご紹介
         </h1>
         <div className="md:flex flex-wrap block w-full mt-10 justify-between mx-auto md:px-10 px-1">

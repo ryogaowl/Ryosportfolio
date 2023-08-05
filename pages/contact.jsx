@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
       </div>
       <div className=" md:w-4/5 mx-auto my-0 px-5">
-        <p className="md:text-sm text-xs mt-9 ">
+        <p className="md:text-base text-sm mt-9 ">
           興味を持っていただきありがとうございます。お仕事やその他のご相談について下記のフォームよりお問い合わせください。
         </p>
         <form
