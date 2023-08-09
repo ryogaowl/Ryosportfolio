@@ -132,11 +132,11 @@ export default function About() {
               </li>
               <li className="before:content-['ー'] md:before:content-['/'] pr-1 ">
                 {" "}
-                React(学習中)
+                React
               </li>
               <li className="before:content-['ー'] md:before:content-['/'] pr-1 ">
                 {" "}
-                Next.js(学習中)
+                Next.js
               </li>
             </ul>
             <br />
