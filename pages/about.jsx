@@ -14,7 +14,7 @@ export default function About() {
           <div className="w-fit">
             <h1 className="mx-auto bottom-16   md:text-5xl text-4xl">ABOUT</h1>
             <p className="pt-1 text-sm text-center md:text-base">
-              私達について
+              私達についてaaa
             </p>
           </div>
         </div>
